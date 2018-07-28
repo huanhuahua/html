@@ -1,1 +1,6 @@
 headfirsthtml学习笔记
+1.html程序的注释使用<!--comment-->来进行注释,注释可以分多行.
+2.html确定网页格式,css渲染网页,css代码放在html的<head></head>头部文件中,用<styel></style>标记,其中styel可以指定样式,<style type="text/css">
+3.html中的超链接使用<a>标记,<a href="sample.txt">sample</a>
+4.元素的属性固定格式<a href="sample.txt">, 由属性名,=,",属性值,"组成.
+5.<img src="图片路径">,img也是一个单目标签.
