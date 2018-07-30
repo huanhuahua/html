@@ -4,3 +4,7 @@ headfirsthtml学习笔记
 3.html中的超链接使用<a>标记,<a href="sample.txt">sample</a>
 4.元素的属性固定格式<a href="sample.txt">, 由属性名,=,",属性值,"组成.
 5.<img src="图片路径">,img也是一个单目标签.
+6.<q>与<blockquote>都是引用标签,其中<q>是短引用,嵌套在段落内.<blockquote>是长引用,重新开始一个段落.<br>用来进行换行.
+7.<li></li>定义一个列表,每个列表列一行.在列表开头和结尾用<ul>或<ol>开始和结束.其中<ul>是无序列表,<ol>是有序列表.<li>和<ol><ul>都是块元素,都重新开始一行.
+8.当想在html中输入<html>时,不可以直接输入,应该输入&gt;html&lt;,如果想输入&符号,则应该输入&amp;.
+
