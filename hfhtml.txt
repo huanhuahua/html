@@ -7,4 +7,9 @@ headfirsthtml学习笔记
 6.<q>与<blockquote>都是引用标签,其中<q>是短引用,嵌套在段落内.<blockquote>是长引用,重新开始一个段落.<br>用来进行换行.
 7.<li></li>定义一个列表,每个列表列一行.在列表开头和结尾用<ul>或<ol>开始和结束.其中<ul>是无序列表,<ol>是有序列表.<li>和<ol><ul>都是块元素,都重新开始一行.
 8.当想在html中输入<html>时,不可以直接输入,应该输入&gt;html&lt;,如果想输入&符号,则应该输入&amp;.
-
+9.<img src="" alt="" width="" height="">,img是void元素,没有内容和结束标记.其中src中包含图片的路径,alt给图片一个文字描述,width和height用来设定图片的高度和宽度.
+10.标准html要求在文档首部加上<!doctype html>标记,告诉浏览器该文档使用标准的html.
+11.<meta charset="utf-8">用来指定html文档使用的编码,该条语句放在<head>字段内.
+12.要为html增加样式,需要在<head>中增加<style></style>样式表.
+13.如果要为多个页面设置样式,可以不用在每个页面中都添加<style>元素,应该在文件夹中新建一个以css文件,将相应的css设置添加到这个文件中,然后在相应的html页面中用<link>元素链接.<link type="text/css" rel="stylesheet" href="lounge.css">
+其中type属性表明链接的类型,rel表明链接的性质,href指定路径.<link>元素是void元算.
